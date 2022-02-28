@@ -34,7 +34,7 @@ const Container = styled.div`
     display: grid;
     padding-top:75px;
     grid-template-areas: "title photo" "content photo";
-    background-color: #ffffff;
+    background: radial-gradient(49.98% 385.78% at 50.02% 49.94%, #FFFFFF 0%, rgba(251, 250, 250, 0.47) 64.9%, rgba(196, 196, 196, 0) 100%);
     @media (max-width: 1150px) {
         grid-template-areas: "title" "photo" "content";
   }

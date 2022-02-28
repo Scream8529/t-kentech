@@ -33,7 +33,7 @@ const items = [
 const Container = styled.div`
     display: grid;
     grid-template-areas: "photo title" "photo content";
-    background-color: #e4e4e4;
+    background: radial-gradient(50% 257.91% at 50% 50%, #F0F0F0 0%, #DFDFDF 100%);
     padding-top:50px;
     @media (max-width: 1150px) {
         grid-template-areas: "title" "photo" "content";
